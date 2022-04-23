@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background-color:  rgb(198, 198, 198);
+}
+
+.susunan{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.tombol{
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    padding: 16px;
+    border-radius: 30px;
+    background-color: rgb(198, 198, 198);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+}
+
+.nama{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    width: 270px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.input{
+    height: 50px;
+    width: 270px;
+    grid-column: span 4;
+    background-color:  rgb(198, 198, 198);
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    text-align: right;
+    color: rgb(70,70,70);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+button{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    border: none;
+    box-shadow: -5px -5px 12px rgb(214, 211, 211), 5px 5px 12px rgb(0, 0, 0, 0.16);
+    margin: 4px;
+    background-color: rgb(185, 161, 161);
+}
+
+button:hover{
+    background-color: aqua;
+    color: #000;
+    font-weight: bold;
+}
+
+.hasil{
+    width: 113px;
+    border-radius: 40px;
+    box-shadow: inset -5px -5px 12px rgb(159, 154, 154), 5px 5px 12px rgba(0, 0, 0, 0.16);
+    background-color:  rgb(175, 197, 89);
+    font-weight: bold;  
+}
+
